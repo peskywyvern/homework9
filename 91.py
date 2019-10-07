@@ -10,7 +10,7 @@
 
 class Mathematician:
     def square_nums(self, nums):
-        return [num**2 for num in nums]
+        return [num ** 2 for num in nums]
 
     def remove_positives(self, nums):
         return [num for num in nums if num < 0]
